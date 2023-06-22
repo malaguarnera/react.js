@@ -1,14 +1,14 @@
-import logo from './logo.svg';
+
 import React from "react";
-//import Navbar from "./componentes/Navbar";
- import { Navbar } from './componentes/navbar/Navbar'
+import { Navbar } from "./componentes/navbar";
+import {Main } from "./pages/main";
+
 function App() {
+
   return (
-    <>
-    <React.Fragment>
-      <Navbar/>
-    </React.Fragment>
-    </>
+    <div className='App'>
+      <Main/>
+    </div>
   );
 }
 

@@ -1,9 +1,11 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./navbar.css";
-
+import CartWidget from "../cart-widget";
+import { Link } from 'react-router-dom';
+import productos from "../productos";
 export function Navbar() {
-
+    const cart = 3;
     const navRef = useRef();
 
     const muestraNavbar = () => {
@@ -14,14 +16,17 @@ export function Navbar() {
       <>
         <h3>logo</h3>
         <nav ref={navRef}>
-          <a href="#">Inicio</a>
-          <a href="#">Productos</a>
-          <a href="#">Nosotros</a>
-          <a href="#">Contacto</a>
+        <nav>
+        <Link to="/">Inicio</Link>
+        <Link to="/Productos">Productos</Link>
+        <Link to="/nosotros">Nosotros</Link>
+        <Link to="/contacto">Contacto</Link>
+        </nav>
           <button className="nav_btn" onClick={muestraNavbar}>
             <FaTimes />
           </button>
         </nav>
+        <CartWidget cartQuantity={cart}/>
       </>
       <button className="nav_btn" onClick={muestraNavbar}>
         <FaBars />

@@ -1,6 +1,5 @@
 
 import React from "react";
-import { Navbar } from "./componentes/navbar";
 import {Main } from "./pages/main";
 
 function App() {

@@ -24,13 +24,13 @@ header {
 	color: var(--textColor);
 }
 
-nav a {
+nav link {
 	margin: 0 1rem;
 	color: var(--textColor);
 	text-decoration: none;
 }
 
-nav a:hover {
+nav link:hover {
 	color: var(--secondaryColor);
 }
 
@@ -83,7 +83,7 @@ nav {
 		right: 2rem;
 	}
 
-	nav a {
+	nav :link {
 		font-size: 1.5rem;
 	}
 }

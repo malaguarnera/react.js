@@ -17,10 +17,10 @@ export function Navbar() {
         <h3>logo</h3>
         <nav ref={navRef}>
         <nav>
-        <Link to="/">Inicio</Link>
-        <Link to="/Productos">Productos</Link>
-        <Link to="/nosotros">Nosotros</Link>
-        <Link to="/contacto">Contacto</Link>
+        <a href="inicio">inicio</a>
+        <a href="inicio">productos</a>
+        <a href="inicio">nosotros</a>
+        <a href="inicio">descripcion</a>
         </nav>
           <button className="nav_btn" onClick={muestraNavbar}>
             <FaTimes />

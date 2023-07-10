@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "nombre": "aviones",
+        "precio":1234 ,
+        "imagen": "algun url",
+        "descripcion": "aviones a escala"
+
+    },
+    {
+        "id": 2,
+        "nombre": "combustibles",
+        "precio":1234 ,
+        "imagen": "algun url",
+        "descripcion": "combustibles por graduacion"
+
+
+    },
+    {
+        "id": 3,
+        "nombre": "helicopteros",
+        "precio":1234 ,
+        "imagen": "algun url",
+        "descripcion": "helicopteros a escala"
+
+    }
+]
